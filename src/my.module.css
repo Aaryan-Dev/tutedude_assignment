@@ -7,7 +7,7 @@
 
 .navigator{
     margin: auto;
-    width: 1366px;
+    width: 100%;
 
 }
 
@@ -71,4 +71,21 @@ width: 45%;
     flex: none;
     order: 1;
     flex-grow: 0;
+}
+
+#Backlinks{
+    width: 100%;
+    /* border: 1px solid black; */
+    margin: auto;
+    display: flex;
+    align-items: center;
+    height: 76px;
+        left: 0px;
+        top: 73px;
+        background: #FFFFFF;
+    }
+    
+    #Backlinks>a{
+    color: black;
+    text-decoration: none;
 }
