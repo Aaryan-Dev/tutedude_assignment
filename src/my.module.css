@@ -157,6 +157,7 @@ width: 45%;
 }
 
 #ReferralCode{
+   
     margin-top: 60px;
     display: flex;
     flex-direction: column;
@@ -165,7 +166,22 @@ width: 45%;
 }
 
 .friends{
+    margin: auto;
+    width: 100%;
     display: flex;
+    justify-content: space-between;
+}
+
+.friends>div{
+    background-color: #000000;
+    padding: 2%;
+    border-radius:20px;
+
+}
+
+.friends>div:nth-child(1) {
+    width: 70%;
+
 }
 
 #terms{
@@ -218,54 +234,94 @@ width: 45%;
     
 .friends>div>div:nth-child(1){
     display: flex;
+        justify-content: space-between;
+    /* align-items: center; */
+    /* justify-content: center; */
+}
+.friends>div>div:nth-child(2){
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    /* justify-content: center; */
 }
 
 .friends>div>div:nth-child(3) {
     display: grid;
     grid-template-columns: repeat(3, 1fr) ;
     grid-template-rows: auto ;
+    gap: 15px;
 }
 
 .friends>div>div:nth-child(4) {
     display: flex;
+        justify-content: space-between;
+        align-items: center;
+        /* justify-content: center; */
 }
 
 .name{
-font-family: 'Poppins';
+/* font-family: 'Poppins'; */
+   
     font-style: normal;
     font-weight: 700;
     font-size: 16px;
     line-height: 24px;
-    /* identical to box height */
-
-
     color: #FFFFFF;
 }
 
 .date {
-    font-family: 'Poppins';
+    /* font-family: 'Poppins'; */
         font-style: normal;
         font-weight: 400;
         font-size: 14px;
         line-height: 21px;
-        /* identical to box height */
-    
-    
         color: #FFFFFF;
 }
 
 .detail {
-    font-family: 'Poppins';
+    /* font-family: 'Poppins'; */
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
     line-height: 21px;
-    /* identical to box height */
+    color: #FFFFFF;
+}
 
+.skills>div{
+    /* font-family: 'Poppins'; */
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 21px;
+        color: #FFFFFF;
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+}
 
+.skills>div{
+    border: 1px solid white;
+    border-radius: 20px;
+
+}
+
+.amount {
+    /* font-family: 'Poppins'; */
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
     color: #FFFFFF;}
 
-.price {}
+
+.price {
+    /* font-family: 'Poppins'; */
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+    color: #FFFFFF;
+}
 
 
 
