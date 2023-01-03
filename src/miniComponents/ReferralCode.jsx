@@ -1,7 +1,7 @@
 import React from "react";
 
-const referralCode = () => {
-  return <div>referralCode</div>;
+const ReferralCode = () => {
+  return <div>ReferralCode</div>;
 };
 
-export default referralCode;
+export default ReferralCode;
