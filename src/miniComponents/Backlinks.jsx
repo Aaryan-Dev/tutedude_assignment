@@ -3,8 +3,7 @@ import css from "../my.module.css";
 
 const Backlinks = () => {
   return (
-    <div id={css.Backlinks}>
-      {/* <div> */}
+    <div className={css.linktags} id={css.Backlinks}>
       <a href="google.com">UI/UX</a>
       <svg
         xmlns="http://www.w3.org/2000/svg"
@@ -34,7 +33,6 @@ const Backlinks = () => {
         />
       </svg>
       <a href="google.com">Friends Referred</a>
-      {/* </div> */}
     </div>
   );
 };
