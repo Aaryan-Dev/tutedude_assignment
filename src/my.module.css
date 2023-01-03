@@ -1,0 +1,11 @@
+
+#navbar{
+    display: flex;
+    height: 73.03px;
+    justify-content: space-between;
+    border: 1px solid black;
+}
+
+.links{
+display: flex;
+}
