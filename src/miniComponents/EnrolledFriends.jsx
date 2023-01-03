@@ -13,7 +13,9 @@ const EnrolledFriends = () => {
       </div>
 
       <div className={css.wall}>
-        <div className={css.wallet}>Wallet Balance</div>
+        <div className={css.wallet}>
+          <pre>Wallet Balance</pre>
+        </div>
         <div className={css.rupee}>&#8377; 500 </div>
       </div>
     </div>
