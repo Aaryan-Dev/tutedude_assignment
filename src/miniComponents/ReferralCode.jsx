@@ -25,7 +25,8 @@ const ReferralCode = () => {
           </div>
           <div>
             <pre className={css.amount}>Referral Amount</pre>
-            <p className={css.price}>&#8377; 185</p>
+
+            <pre className={css.price}>&#8377;185</pre>
           </div>
         </div>
         <div>
@@ -43,13 +44,16 @@ const ReferralCode = () => {
           </div>
           <div>
             <pre className={css.amount}>Referral Amount</pre>
-            <p className={css.price}>&#8377; 185</p>
+            <pre className={css.price}>&#8377;185</pre>
           </div>
         </div>
+
         <div>
           <div>
             <div className={css.name}>Dhiraj Saxsena</div>
-            <div className={css.date}>14 Sep, 2022</div>
+            <div id={css.hide_date} className={css.date}>
+              14 Sep, 2022
+            </div>
           </div>
           <div className={css.detail}>Courses Enrolled(6)</div>
           <div className={css.skills}>
@@ -61,8 +65,9 @@ const ReferralCode = () => {
           </div>
           <div>
             <pre className={css.amount}>Referral Amount</pre>
-            <p className={css.price}>&#8377; 185</p>
+            <pre className={css.price}>&#8377;185</pre>
           </div>
+          <div id={css.gradiant}></div>
         </div>
       </div>
 
