@@ -6,13 +6,11 @@ import ReferralCode from "../miniComponents/ReferralCode";
 
 const Body = () => {
   return (
-    // <div>
     <div id={css.body_width}>
       <Backlinks />
       <EnrolledFriends />
       <ReferralCode />
     </div>
-    // </div>
   );
 };
 
