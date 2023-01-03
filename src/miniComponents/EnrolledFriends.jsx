@@ -14,7 +14,7 @@ const EnrolledFriends = () => {
 
       <div className={css.wall}>
         <div className={css.wallet}>Wallet Balance</div>
-        <div className={css.ruppee}>&#8377; 500 </div>
+        <div className={css.rupee}>&#8377; 500 </div>
       </div>
     </div>
   );
