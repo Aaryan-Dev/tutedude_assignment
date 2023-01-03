@@ -540,6 +540,15 @@ width: 45%;
                     color: white;
                 } */
 
+                                .skills {
+                                    margin-top: 10px;
+                                    height: 57px;
+                                    padding: 0px 20px 10px 0px;
+                                    overflow-x: hidden;
+                                    overflow-y: auto;
+                
+                                }
+
                 .profileName{
                     border:  1px solid black;
                     padding: 8%;
