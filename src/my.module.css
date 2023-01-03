@@ -220,6 +220,7 @@ width: 45%;
 
 .friends>div{
     background-color: #000000;
+    position: relative;
     padding: 2%;
     border-radius:20px;
    
@@ -412,16 +413,13 @@ width: 45%;
 
 #gradiant{
     position: absolute;
-    border: 1px solid black;
-    /* float: left; */
-     right: 0;
-     height: 100px; 
-    /* height: 119%;
-    left: 50%;
-    bottom: 109.5%;
-    width: 60%;
+    /* border: 1px solid black; */
+     right: 0%;
+     width: 50%;
+     top: 0;
+     height: 16.6rem; 
    border-radius: 0px 20px 20px 0px;
-    background: linear-gradient(270deg, #6D6D6D 0%, rgba(61, 49, 49, 0) 42.79%); */
+    background: linear-gradient(270deg, #6D6D6D 0%, rgba(61, 49, 49, 0) 42.79%); 
 }
 
 
@@ -441,6 +439,10 @@ width: 45%;
 
     .friends>div{
         padding: 5%;
+    }
+
+    #gradiant{
+        display: none;
     }
 
     .friends>div:nth-child(1) {

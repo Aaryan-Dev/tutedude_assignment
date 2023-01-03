@@ -72,8 +72,8 @@ const ReferralCode = () => {
             <pre className={css.amount}>Referral Amount</pre>
             <pre className={css.price}>&#8377;485</pre>
           </div>
+          <div id={css.gradiant}></div>
         </div>
-        <div id={css.gradiant}></div>
       </div>
 
       <div id={css.terms}>Terms & Conditions</div>
