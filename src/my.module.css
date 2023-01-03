@@ -10,9 +10,14 @@
 
 @import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:regular,bold,italic&subset=latin,latin-ext');
 
+/* @media all and (min-width: 428px) and (max-width: 1366px) { */
+
 #body_width{
     width: 67%;
     margin: auto;
+}
+#hide_date {
+    display: none;
 }
 
 .navigator{
@@ -167,6 +172,7 @@ width: 45%;
 
 .friends{
     margin: auto;
+    margin-top: 17px ;
     width: 100%;
     display: flex;
     justify-content: space-between;
@@ -175,12 +181,23 @@ width: 45%;
 .friends>div{
     background-color: #000000;
     padding: 2%;
+    
     border-radius:20px;
+   
+    background: linear-gradient(270deg, #800080 0%, #FF864C 100%);
 
 }
 
 .friends>div:nth-child(1) {
-    width: 70%;
+    width: 32%;
+
+}
+.friends>div:nth-child(2) {
+    width: 32%;
+
+}
+.friends>div:nth-child(3) {
+    width: 20%;
 
 }
 
@@ -190,6 +207,8 @@ width: 45%;
         left: 187px;
         top: 634px; */
         /* font-family: 'Poppins'; */
+        margin-top: 50px;
+        margin-bottom: 50px;
         font-style: normal;
         font-weight: 500;
         font-size: 16px;
@@ -247,16 +266,19 @@ width: 45%;
 
 .friends>div>div:nth-child(3) {
     display: grid;
+    /* position: absolute; */
+    position: relative;
+    left: 10px;
     grid-template-columns: repeat(3, 1fr) ;
     grid-template-rows: auto ;
-    gap: 15px;
+    gap: 10px 15px;
 }
 
 .friends>div>div:nth-child(4) {
     display: flex;
-        justify-content: space-between;
+        justify-content: flex-start;
         align-items: center;
-        /* justify-content: center; */
+        margin-top: 2rem;
 }
 
 .name{
@@ -280,11 +302,16 @@ width: 45%;
 
 .detail {
     /* font-family: 'Poppins'; */
+    margin-top: 5px;
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
     line-height: 21px;
     color: #FFFFFF;
+}
+
+.skills{
+    margin-top: 10px;
 }
 
 .skills>div{
@@ -300,6 +327,7 @@ width: 45%;
 }
 
 .skills>div{
+    /* display: block; */
     border: 1px solid white;
     border-radius: 20px;
 
@@ -307,11 +335,15 @@ width: 45%;
 
 .amount {
     /* font-family: 'Poppins'; */
+    
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 24px;
-    color: #FFFFFF;}
+    color: #FFFFFF;
+    margin-right: 8px;
+}
+
 
 
 .price {
@@ -323,6 +355,90 @@ width: 45%;
     color: #FFFFFF;
 }
 
+#gradiant{
+    position: relative;
+    height: 119%;
+    left: 50%;
+    bottom: 109.5%;
+    width: 60%;
+   /* border: 2px solid black; */
+   border-radius: 0px 20px 20px 0px;
+    background: linear-gradient(270deg, #6D6D6D 0%, rgba(61, 49, 49, 0) 42.79%);
+}
+
+
+/* } */
+
+
+@media all and (min-width: 0px) and (max-width: 428px) {
+
+   
+
+.friends {
+        margin: auto;
+        margin-top: 17px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        /* justify-content: space-between; */
+    }
+
+
+    .friends>div{
+        padding: 5%;
+    }
+
+    .friends>div:nth-child(1) {
+        width: 100%;
+        margin-bottom: 20px;
+        
+    }
+
+    .friends>div:nth-child(2) {
+        width: 100%;
+        margin-bottom: 20px;
+    
+        }
+    
+        .friends>div:nth-child(3) {
+            width: 100%;
+    
+        }
+
+                /* .enroll {
+                    display: flex;
+                    justify-content: space-between;
+                } */
+
+                .wall {
+                    /* margin-left:3%; */
+                    width: 40%;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: flex-start;
+                    align-content: center;
+                    background: #FFFFFF;
+                    box-shadow: 0px 2px 8px rgba(128, 0, 128, 0.15);
+                    border-radius: 20px;
+                    padding: 10px;
+                }
+
+                                  .links {
+                                    display: none;
+                                    /* display: flex;
+                                    justify-content: space-around;
+                                    width: 45%; */
+                                }
+
+                        #body_width {
+                            display: flex;
+                            flex-direction: column;
+                            justify-content: center;
+                            width: 67%;
+                            margin: auto;
+                        }
+}
 
 
 
