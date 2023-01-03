@@ -151,8 +151,122 @@ width: 45%;
     padding: 20px;
 }
 
+
 .wallet{
     color: #800080;
 }
+
+#ReferralCode{
+    margin-top: 60px;
+    display: flex;
+    flex-direction: column;
+    align-content: flex-start;
+    align-items: flex-start;
+}
+
+.friends{
+    display: flex;
+}
+
+#terms{
+    /* width: 159px;
+        height: 24px;
+        left: 187px;
+        top: 634px; */
+        /* font-family: 'Poppins'; */
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 24px;
+        color: #800080;
+}
+
+.enrolled{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.rupee{
+        /* font-family: 'Poppins'; */
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 24px;
+        color: #000000;
+        flex: none;
+        order: 1;
+        flex-grow: 0;
+}
+
+
+.enrolled>pre{
+/* font-family: 'Poppins'; */
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    color: #800080;
+}
+    
+.enrolled>p{
+    font-style: normal;
+    font-size: 20px;
+    line-height: 30px;
+    color: #757575;
+}
+    
+.friends>div>div:nth-child(1){
+    display: flex;
+}
+
+.friends>div>div:nth-child(3) {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr) ;
+    grid-template-rows: auto ;
+}
+
+.friends>div>div:nth-child(4) {
+    display: flex;
+}
+
+.name{
+font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height */
+
+
+    color: #FFFFFF;
+}
+
+.date {
+    font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 21px;
+        /* identical to box height */
+    
+    
+        color: #FFFFFF;
+}
+
+.detail {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    /* identical to box height */
+
+
+    color: #FFFFFF;}
+
+.price {}
+
+
 
 
