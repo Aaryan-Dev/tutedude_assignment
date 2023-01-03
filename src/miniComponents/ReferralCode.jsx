@@ -57,10 +57,10 @@ const ReferralCode = () => {
           <div>
             <div className={css.name}>Prafull Kumar</div>
             <div id={css.hide_date} className={css.date}>
-              14 Sep, 2022
+              16 Sep, 2022
             </div>
           </div>
-          <div className={css.detail}>Courses Enrolled(6)</div>
+          <div className={css.detail}>Courses Enrolled(23)</div>
           <div className={css.skills}>
             <div>UI/UX</div>
             <div>Photoshop</div>
