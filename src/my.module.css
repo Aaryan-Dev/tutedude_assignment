@@ -1,11 +1,74 @@
+*{
+    padding: 0px;
+    margin: 0px
+}
+
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:regular,bold,italic&subset=latin,latin-ext');
+
+.navigator{
+    margin: auto;
+    width: 1366px;
+
+}
 
 #navbar{
+    margin: auto;
+    width: 85%;
     display: flex;
-    height: 73.03px;
     justify-content: space-between;
+    align-items: center;
     border: 1px solid black;
+    height: 73.03px;
+        left: 0px;
+        right: 0px;
+        top: 0px;
 }
 
 .links{
 display: flex;
+justify-content: space-around;
+width: 45%;
+}
+
+.profileName{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.assignment{
+        /* font-family: 'Poppins'; */
+        font-family: 'Poppins';
+        text-decoration: none;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 123.5%;
+        text-align: center;
+        color: rgba(128, 0, 128, 0.25);
+}
+
+#logo{
+    width: 160px;
+    height: 63px;
+    left: 74px;
+    top: 6px; 
+    background: url("https://i.postimg.cc/cLv1kLpw/image-1.png");
+}
+
+.profile{
+    width: 111px;
+    height: 22px;
+    text-decoration: none;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 123.5%;
+    text-align: center;
+    color: #800080;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
 }
