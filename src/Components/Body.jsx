@@ -4,9 +4,9 @@ import Backlinks from "../miniComponents/Backlinks";
 
 const Body = () => {
   return (
-    <div>
-      <Backlinks />
-    </div>
+    // <div>
+    <Backlinks />
+    // </div>
   );
 };
 
