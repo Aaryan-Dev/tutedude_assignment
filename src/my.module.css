@@ -34,7 +34,7 @@
         }
 
 #body_width{
-    width: 67%;
+    width: 70%;
     margin: auto;
 }
 #hide_date {
@@ -361,8 +361,8 @@ width: 45%;
 }
 
 .skills{
+    height: 57px;
     margin-top: 10px;
-    height: 24.8%;
     padding: 0px 20px 10px 0px ;
     overflow-x: hidden;
     overflow-y: auto;
@@ -373,7 +373,11 @@ width: 45%;
     /* font-family: 'Poppins'; */
         font-style: normal;
         font-weight: 400;
-        
+         /* align-items: center; */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
         font-size: 14px;
         line-height: 21px;
         color: #FFFFFF;
@@ -390,7 +394,7 @@ width: 45%;
 }
 
 .amount {
-    
+    /* margin-top: -300px 0px -300px 0px; */
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -416,7 +420,7 @@ width: 45%;
      right: 0%;
      width: 50%;
      top: 0;
-     height: 16.3rem; 
+     height: 14.5rem; 
    border-radius: 0px 20px 20px 0px;
     background: linear-gradient(270deg, #6D6D6D 0%, rgba(61, 49, 49, 0) 42.79%); 
 }
@@ -458,7 +462,7 @@ width: 45%;
     
         .friends>div:nth-child(3) {
             width: 100%;
-    
+              
         }
 
                 #back {
@@ -530,7 +534,7 @@ width: 45%;
                                 .skills {
                                     margin-top: 10px;
                                     height: 57px;
-                                    padding: 0px 20px 10px 0px;
+                                    padding: 0px 20px 0px 0px;
                                     overflow-x: hidden;
                                     overflow-y: auto;
                 
