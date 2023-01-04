@@ -46,6 +46,20 @@ const ReferralCode = () => {
             <div>Java</div>
             <div>GitHub</div>
             <div>DSA</div>
+            <div>MERN</div>
+            <div>C++</div>
+            <div>Java</div>
+            <div>GitHub</div>
+            <div>DSA</div>
+            <div>UI/UX</div>
+            <div>Photoshop</div>
+            <div>Illustrator</div>
+            <div>Python</div>
+            <div>MERN</div>
+            <div>C++</div>
+            <div>Java</div>
+            <div>GitHub</div>
+            <div>DSA</div>
           </div>
           <div>
             <pre className={css.amount}>Referral Amount</pre>
